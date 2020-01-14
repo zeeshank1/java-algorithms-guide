@@ -10,6 +10,7 @@ public class ForEachExample {
 
         for (int index = 0; index < 10; index++) {
             integerList.add(index);
+            System.out.print("Prod fix");
         }
 
         integerList.forEach(System.out::print);
