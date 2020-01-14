@@ -11,6 +11,7 @@ public interface Java8Interface {
      */
     default void info() {
         System.out.println("Default method in interface");
+        System.out.println("Production comment");
     }
 
     default double findSqrt(double number) {
