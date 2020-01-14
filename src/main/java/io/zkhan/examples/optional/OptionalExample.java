@@ -89,6 +89,8 @@ public class OptionalExample {
         /////////////////////////////////////////////
 
         String password = " password ";
+        //Added as the production 2 fix
+        String temppassword = "temppassword";
         Optional<String> passOpt = Optional.of(password);
         boolean correctPassword = passOpt.filter(
                 pass -> pass.equals("password")).isPresent();
