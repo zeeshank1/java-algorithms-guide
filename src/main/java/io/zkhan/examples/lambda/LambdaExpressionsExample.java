@@ -10,11 +10,11 @@ public class LambdaExpressionsExample {
     }
 
     private static void withCustomInterface() {
-        int[] nums = {-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5};
+        int[] numberss = {-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5};
 
         Expression expr = methodReference();
-        System.out.println(sum(nums, expr));
-        System.out.println(sum(nums, ExpressionHelper::isEven));
+        System.out.println(sum(numberss, expr));
+        System.out.println(sum(numberss, ExpressionHelper::isEven));
     }
 
     private static int sum(int[] numbers, Expression expression) {
