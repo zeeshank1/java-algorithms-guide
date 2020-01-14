@@ -73,9 +73,9 @@ public class OptionalExample {
     }
 
     private static void withMap() {
-        //Added new company in the company names list
+        //Added new company in the company names list added more company in company list
         List<String> companyNames = Arrays.asList(
-                "paypal", "oracle", "", "microsoft", "", "apple","google");
+                "paypal", "oracle", "", "microsoft", "", "apple","google","netflix");
         Optional<List<String>> listOptional = Optional.of(companyNames);
         int size = listOptional
                 .map(List::size)

@@ -45,6 +45,7 @@ public class StreamExample {
         stringList.add("ccc");
         stringList.add("bbb2");
         stringList.add("ddd1");
+        stringList.add("ddd22");
     }
 
     static {
