@@ -73,8 +73,10 @@ public class OptionalExample {
     }
 
     private static void withMap() {
+        //Changes added to fix production issue
         List<String> companyNames = Arrays.asList(
-                "paypal", "oracle", "", "microsoft", "", "apple");
+                "paypal", "oracle", "", "microsoft", "", "apple","DXC");
+
         Optional<List<String>> listOptional = Optional.of(companyNames);
         int size = listOptional
                 .map(List::size)
