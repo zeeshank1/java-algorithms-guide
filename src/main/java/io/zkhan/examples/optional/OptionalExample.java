@@ -60,6 +60,7 @@ public class OptionalExample {
         System.out.println(is2016);
         boolean is2017 = yearOptional.filter(y -> y == 2017).isPresent();
         System.out.println(is2017);
+        System.out.println("is2017");
 
         System.out.println(priceIsInRange(new Modem(10.5)));
     }
