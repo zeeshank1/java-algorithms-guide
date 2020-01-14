@@ -10,6 +10,8 @@ public class ForEachExample {
 
         for (int index = 0; index < 10; index++) {
             integerList.add(index);
+            //Dev phase-2 changes
+            System.out.print("Dev phase-2 changes");
             System.out.print("Prod fix");
         }
 
