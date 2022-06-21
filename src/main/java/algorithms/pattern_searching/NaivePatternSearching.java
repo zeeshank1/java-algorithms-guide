@@ -9,17 +9,9 @@ public class NaivePatternSearching {
 
         for (int i = 0; i <= textStringLength - patternLength; i++) {
 
-            char currentTextChar = textString.charAt(i);
-            char firstPatternChar = pattern.charAt(0);
-            System.out.println("CharAt Text i > " + i + " = " + currentTextChar);
-            System.out.println("First CharAt Pattern = " + currentTextChar);
-            System.out.println("========================================");
-            if (currentTextChar == firstPatternChar) {
+            if (textString.charAt(i) == pattern.charAt(0)) {
                 for (int j = 0; j < patternLength; j++) {
-                    char t = textString.charAt(i + j);
-                    char p = pattern.charAt(j);
-                    System.out.println("T = " + t + " ___ " + "P = " + p);
-                    if (t != p) {
+                    if (textString.charAt(i + j) != pattern.charAt(j)) {
                         break;
                     }
                     if (j == patternLength - 1) {
