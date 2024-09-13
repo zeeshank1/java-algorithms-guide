@@ -29,3 +29,19 @@ Bitmasking (DP + Bitmasking problems) <br>
 2-Pointer / Sliding Window Techniques <br>
 Monotonic Stack / Queue Algorithms <br>
 Convex Hull Algorithms (Graham Scan, Jarvis March) <br>
+
+3. Algorithms Required for Tier-1:
+Graph Algorithms (Dijkstra, A*, Bellman-Ford, Floyd-Warshall, Johnson's Algorithm)  <br>
+Dynamic Programming (Advanced: LIS, LCS, DP on Trees/Graphs, DP with Bitmasking) <br>
+Advanced Greedy Algorithms (Job Scheduling, Huffman Coding) <br>
+Graph Search & Shortest Path (A*, Bidirectional BFS) <br>
+String Algorithms (KMP, Z-Algorithm, Manacher’s Algorithm for Palindromes) <br>
+Advanced Recursion and Backtracking (Hamiltonian Path, Subset Sum, Permutations) <br>
+Matrix Exponentiation <br>
+Graph Cycle Detection (Union-Find, Tarjan’s Algorithm) <br>
+Tarjan’s Algorithm (Strongly Connected Components) <br>
+Kadane’s Algorithm (for Maximum Subarray Problem) <br>
+Sliding Window Algorithms (for optimization problems) <br>
+Trie-Based Algorithms (for prefix searching, autocomplete) <br>
+Shortest Path in Weighted Graphs (Dijkstra, A*) <br>
+Heavy-Light Decomposition (for Tree Queries) <br>
