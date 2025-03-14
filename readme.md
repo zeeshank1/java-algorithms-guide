@@ -1,4 +1,4 @@
-## 1. Algorithms Must Know :
+## 1. Algorithms Must Know 8 :
    
 - Sorting Algorithms (Quick Sort, Merge Sort, Heap Sort, Counting Sort) <br>
 - Searching Algorithms (Binary Search, Linear Search)<br>
