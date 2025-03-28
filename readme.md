@@ -1,6 +1,6 @@
 fff## 1. Algorithms Must Know :
 
-kkk
+kkkiii
    
 - Sorting Algorithms (Quick Sort, Merge Sort, Heap Sort, Counting Sort) <br>
 - Searching Algorithms (Binary Search, Linear Search)<br>
