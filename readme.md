@@ -1,4 +1,4 @@
-fff## 1. Algorithms Must Know :
+# 1. Algorithms Must Know :
 
    
 - Sorting Algorithms (Quick Sort, Merge Sort, Heap Sort, Counting Sort) <br>
