@@ -6,7 +6,7 @@
 - Dynamic Programming (Knapsack, Longest Common Subsequence, Fibonacci)<br>
 - Greedy Algorithms (Activity Selection, Huffman Coding)<br>
 - Divide and Conquer (Merge Sort, Quick Sort, Binary Search)<br>vvvv
-- Graph Algorithms (BFS, DFS, To.  pological Sorting)<br>
+- Graph Algorithms (BFS, DFS, To.  pological Sorting)
 - Tree Traversal Algorithms (Inorder, Preorder, Postorder)<br>
 - Hashing (Collision Resolution Techniques)<br>
 - Bit Manipulation (Basic Operations, XOR Tricks)<br>
