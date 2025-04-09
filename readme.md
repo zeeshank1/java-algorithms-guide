@@ -3,7 +3,7 @@
    
 - Sorting Algorithms (Quick Sort, Merge Sort, Heap Sort, Counting Sort) <br>
 - Searching Algorithms (Binary Search, Linear Search)<br>
-- Dynamic Programming (Knapsack, Longest Common Subsequence, Fibonacci)<br>
+- Dynamic Programming (Knapsack, Longest Common Subsequence, Fibonacci) <br>
 - Greedy Algorithms (Activity Selection, Huffman Coding)<br>
 - Divide and Conquer (Merge Sort, Quick Sort, Binary Search)<br>
 - Graph Algorithms (BFS, DFS, Topological Sorting)<br>
