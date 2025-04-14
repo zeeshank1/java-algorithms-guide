@@ -24,7 +24,7 @@
 - Network Flow Algorithms (Ford-Fulkerson, Edmonds-Karp) <br>
 - Advanced Recursion and Memoization (Tiling Problems, Catalan Numbers) <br>
 - Number Theory Algorithms (GCD, LCM, Sieve of Eratosthenes) <br>
-- Bitmasking (DP + Bitmasking problems) <br>
+- Bitmasking (DP, + Bitmasking problems) <br>
 - 2-Pointer / Sliding Window Techniques <br>
 - Monotonic Stack / Queue Algorithms <br>
 - Convex Hull Algorithms (Graham Scan, Jarvis March) <br>
