@@ -44,3 +44,65 @@
 12. Trie-Based Algorithms (for prefix searching, autocomplete) <br>
 13. Shortest Path in Weighted Graphs (Dijkstra, A*) <br>
 14. Heavy-Light Decomposition (for Tree Queries) <br>
+
+---
+### Folder Structure :
+
+algorithms-java8/
+├── .gitignore
+├── README.md
+├── pom.xml OR build.gradle
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── zeeshank1/
+│   │               └── algorithms/
+│   │                   ├── sorting/
+│   │                   │   ├── QuickSort.java
+│   │                   │   ├── MergeSort.java
+│   │                   │   └── ...
+│   │                   ├── searching/
+│   │                   │   ├── BinarySearch.java
+│   │                   │   └── ...
+│   │                   ├── dynamicprogramming/
+│   │                   │   ├── Knapsack.java
+│   │                   │   └── ...
+│   │                   ├── greedy/
+│   │                   ├── divideandconquer/
+│   │                   ├── graph/
+│   │                   ├── tree/
+│   │                   ├── hashing/
+│   │                   ├── bitmanipulation/
+│   │                   ├── recursion/
+│   │                   ├── stringmatching/
+│   │                   ├── matrix/
+│   │                   ├── segmenttree/
+│   │                   ├── fenwicktree/
+│   │                   ├── networkflow/
+│   │                   ├── numbertheory/
+│   │                   ├── bitmasking/
+│   │                   ├── twopointer/
+│   │                   ├── monotonic/
+│   │                   ├── convexhull/
+│   │                   ├── trie/
+│   │                   ├── heavylightdecomposition/
+│   │                   └── utils/
+│   │                       └── Helper.java
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── zeeshank1/
+│                   └── algorithms/
+│                       └── (Mirrors the main structure for unit tests)
+├── docs/
+│   ├── diagrams/
+│   ├── notes/
+│   │   ├── sorting.md
+│   │   ├── dp.md
+│   │   └── ...
+│   └── cheatsheets/
+├── .github/
+│   └── workflows/
+│       └── maven.yml (CI/CD GitHub Actions for build/test)
+
