@@ -24,7 +24,7 @@
 7. Advanced Recursion and Memoization (Tiling Problems, Catalan Numbers) <br>
 8. Number Theory Algorithms (GCD, LCM, Sieve of Eratosthenes) <br>
 9. Bitmasking (DP, + Bitmasking problems) <br>
-10. 2-Pointer / Sliding Window Techniques <br>
+10. 2-Pointer and Sliding Window Techniques <br>
 11. Monotonic Stack / Queue Algorithms <br>
 12. Convex Hull Algorithms (Graham Scan, Jarvis March) <br>
 
