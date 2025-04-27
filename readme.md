@@ -48,8 +48,6 @@
 ---
 ### Folder Structure :
 
-
-
 ```plaintext
 algorithms-java8/
 ├── .gitignore
