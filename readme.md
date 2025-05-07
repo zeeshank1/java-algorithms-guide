@@ -28,7 +28,7 @@
 11. Monotonic Stack / Queue Algorithms <br>
 12. Convex Hull Algorithms (Graham Scan, Jarvis March) <br>
 
-## 3. Algorithms Required for Tier-1:
+## 3. Algorithms Required for Tier-1 companies:
 
 1. Graph Algorithms (Dijkstra, A*, Bellman-Ford, Floyd-Warshall, Johnson's Algorithm) <br>
 2. Dynamic Programming (Advanced: LIS, LCS, DP on Trees/Graphs, DP with Bitmasking) <br>
