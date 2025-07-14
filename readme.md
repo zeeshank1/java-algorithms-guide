@@ -4,11 +4,11 @@
 2. Searching Algorithms (Binary Search, Linear Search) <br>
 3. Dynamic Programming (Knapsack, Longest Common Subsequence, Fibonacci) <br>
 4. Greedy Algorithms (Activity Selection, Huffman Coding) <br>
-5. Divide and Conquer (Merge Sort, Quick Sort, Binary Search)<br>
+5. Divide and Conquer (Merge Sort, Quick Sort, Binary Search) <br>
 6. Graph Algorithms (BFS, DFS, Topological Sorting)<br>
-7. Tree Traversal Algorithms (Inorder, Preorder, Postorder)<br>
+7. Tree Traversal Algorithms (Inorder, Preorder, Postorder) <br>
 8. Hashing (Collision Resolution Techniques)<br>
-9. Bit Manipulation (Basic Operations, XOR Tricks)<br>
+9. Bit Manipulation (Basic Operations, XOR Tricks) <br>
 10. Recursion and Backtracking (N-Queens, Sudoku Solver)<br>
 11. String Matching (KMP, Rabin-Karp, Z-Algorithm)<br>
 12. Matrix Manipulation (Transpose, Rotate, Spiral)<br>
