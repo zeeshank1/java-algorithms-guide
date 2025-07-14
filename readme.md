@@ -1,9 +1,9 @@
 ## 1. Algorithms Must Know:
 
 1. Sorting Algorithms (Quick Sort, Merge Sort, Heap Sort, Counting Sort) <br>
-2. Searching Algorithms (Binary Search, Linear Search)<br>
+2. Searching Algorithms (Binary Search, Linear Search) <br>
 3. Dynamic Programming (Knapsack, Longest Common Subsequence, Fibonacci) <br>
-4. Greedy Algorithms (Activity Selection, Huffman Coding)<br>
+4. Greedy Algorithms (Activity Selection, Huffman Coding) <br>
 5. Divide and Conquer (Merge Sort, Quick Sort, Binary Search)<br>
 6. Graph Algorithms (BFS, DFS, Topological Sorting)<br>
 7. Tree Traversal Algorithms (Inorder, Preorder, Postorder)<br>
