@@ -30,20 +30,20 @@
 
 ## 3. Algorithms Required for Tier-1 companies:
 
-1. Graph Algorithms (Dijkstra, A*, Bellman-Ford, Floyd-Warshall, Johnson's Algorithm) <br>
-2. Dynamic Programming (Advanced: LIS, LCS, DP on Trees/Graphs, DP with Bitmasking) <br>
-3. Advanced Greedy Algorithms (Job Scheduling, Huffman Coding) <br>
-4. Graph Search & Shortest Path (A*, Bidirectional BFS) <br>
-5. String Algorithms (KMP, Z-Algorithm, Manacher’s Algorithm for Palindromes) <br>
-6. Advanced Recursion and Backtracking (Hamiltonian Path, Subset Sum, Permutations) <br>
-7. Matrix Exponentiation <br>
-8. Graph Cycle Detection (Union-Find, Tarjan’s Algorithm) <br>
-9. Tarjan’s Algorithm (Strongly Connected Components) <br>
-10. Kadane’s Algorithm (for Maximum Subarray Problem) <br>
-11. Sliding Window Algorithms (for optimization problems) <br>
-12. Trie-Based Algorithms (for prefix searching, autocomplete) <br>
-13. Shortest Path in Weighted Graphs (Dijkstra, A*) <br>
-14. Heavy-Light Decomposition (for Tree Queries) <br>
+1. Graph Algorithms (Dijkstra, A*, Bellman-Ford, Floyd-Warshall, Johnson's Algorithm). <br>
+2. Dynamic Programming (Advanced: LIS, LCS, DP on Trees/Graphs, DP with Bitmasking).<br>
+3. Advanced Greedy Algorithms (Job Scheduling, Huffman Coding).<br>
+4. Graph Search & Shortest Path (A*, Bidirectional BFS).<br>
+5. String Algorithms (KMP, Z-Algorithm, Manacher’s Algorithm for Palindromes). <br>
+6. Advanced Recursion and Backtracking (Hamiltonian Path, Subset Sum, Permutations). <br>
+7. Matrix Exponentiation. <br>
+8. Graph Cycle Detection (Union-Find, Tarjan’s Algorithm). <br>
+9. Tarjan’s Algorithm (Strongly Connected Components). <br>
+10. Kadane’s Algorithm (for Maximum Subarray Problem). <br>
+11. Sliding Window Algorithms (for optimization problems). <br>
+12. Trie-Based Algorithms (for prefix searching, autocomplete). <br>
+13. Shortest Path in Weighted Graphs (Dijkstra, A*). <br>
+14. Heavy-Light Decomposition (for Tree Queries). <br>
 
 ---
 ### Folder Structure :
