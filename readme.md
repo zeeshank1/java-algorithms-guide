@@ -2,8 +2,6 @@
 
 This repository contains implementations of various algorithms in Java 8. It is structured to help learners and developers understand, implement, and practice algorithms commonly used in software development, competitive programming, and technical interviews.
 
-
-
 ## 1. Algorithms Must Know:
 
 These are foundational algorithms that every developer should be familiar with:
@@ -21,7 +19,7 @@ These are foundational algorithms that every developer should be familiar with:
 11. **String Matching**: KMP, Rabin-Karp, Z-Algorithm.  
 12. **Matrix Manipulation**: Transpose, Rotate, Spiral.  
 
-
+---
 
 ## 2. Algorithms Good to Know for Top Companies:
 
@@ -40,7 +38,7 @@ These algorithms are frequently asked in interviews at top companies:
 11. **Monotonic Stack / Queue Algorithms**.  
 12. **Convex Hull Algorithms**: Graham Scan, Jarvis March.  
 
-
+---
 
 ## 3. Algorithms Required for Tier-1 Companies:
 
