@@ -6,7 +6,7 @@ This repository contains implementations of various algorithms in Java 8. It is 
 
 These are foundational algorithms that every developer should be familiar with:
 
-1. **Sorting Algorithms**: Quick Sort, Merge Sort, Heap Sort, Counting Sort.  
+1. **Sorting Algorithms**: Quick Sort, Merge Sort, Heap Sort, Counting Sorted.
 2. **Searching Algorithms**: Binary Search, Linear Search.  
 3. **Dynamic Programming**: Knapsack, Longest Common Subsequence, Fibonacci.  
 4. **Greedy Algorithms**: Activity Selection, Huffman Coding.  
