@@ -1,6 +1,6 @@
 # Algorithms Using Java 8
 
-This repository contains implementations of various algorithms in Java 8. It is structured to help developers to understand, implement, and practice algorithms commonly used in software development, competitive programming, and technical interviews.
+This repository contains implementations of various algorithms using Java 8. It is structured to help developers to understand, implement, and practice algorithms commonly used in software development, competitive programming, and technical interviews.
 
 ## 1. Algorithms Must Know:
 
