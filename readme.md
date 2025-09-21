@@ -1,147 +1,132 @@
-# Algorithms Using Java 8
+# ⚡ Algorithms in Java
 
-This repository contains implementations of various algorithms using Java 8. It is structured to help to understand, implement, and practice algorithms commonly used in software development, competitive programming, and technical interviews.
+This repository contains **implementations of core and advanced algorithms** using **Java 8+ features** (lambdas, streams, optionals where relevant).
 
-## 1. Algorithms Must Know:
-
-These are foundational algorithms that every developer should be familiar with:
-
-1. **Sorting Algorithms**: Quick Sort, Merge Sort, Heap Sort, Counting Sort.
-2. **Searching Algorithms**: Binary Search, Linear Search.  
-3. **Dynamic Programming**: Knapsack, Longest Common Subsequence, Fibonacci.  
-4. **Greedy Algorithms**: Activity Selection, Huffman Coding.  
-5. **Divide and Conquer**: Merge Sort, Quick Sort, Binary Search.  
-6. **Graph Algorithms**: BFS, DFS, Topological Sorting.  
-7. **Tree Traversal Algorithms**: Inorder, Preorder, Postorder.  
-8. **Hashing**: Collision Resolution Techniques.  
-9. **Bit Manipulation**: Basic Operations, XOR Tricks.  
-10. **Recursion and Backtracking**: N-Queens, Sudoku Solver.  
-11. **String Matching**: KMP, Rabin-Karp, Z-Algorithm.  
-12. **Matrix Manipulation**: Transpose, Rotate, Spiral.  
+It is designed to serve as a **reference and practice resource** for engineers preparing for **technical interviews**, competitive programming, and system design discussions.
 
 ---
 
-## 2. Algorithms Good to Know for Top Companies:
-
-These algorithms are frequently asked in interviews at top companies:
-
-1. **Segment Tree Algorithms**: Range Query, Range Update.  
-2. **Binary Indexed Tree / Fenwick Tree**: Point Update, Range Query.  
-3. **Graph Algorithms**: Dijkstra, Bellman-Ford, Floyd-Warshall.  
-4. **Minimum Spanning Tree**: Kruskal’s, Prim’s.  
-5. **Dynamic Programming (Advanced Problems)**: Matrix Chain Multiplication, Subset Sum.  
-6. **Network Flow Algorithms**: Ford-Fulkerson, Edmonds-Karp.  
-7. **Advanced Recursion and Memoization**: Tiling Problems, Catalan Numbers.  
-8. **Number Theory Algorithms**: GCD, LCM, Sieve of Eratosthenes.  
-9. **Bitmasking**: DP + Bitmasking Problems.  
-10. **2-Pointer and Sliding Window Techniques**.  
-11. **Monotonic Stack / Queue Algorithms**.  
-12. **Convex Hull Algorithms**: Graham Scan, Jarvis March.  
-
----
-
-## 3. Algorithms Required for Tier-1 Companies:
-
-These advanced algorithms are essential for solving complex problems in technical interviews at Tier-1 companies:
-
-1. **Graph Algorithms**: Dijkstra, A*, Bellman-Ford, Floyd-Warshall, Johnson's Algorithm.  
-2. **Dynamic Programming (Advanced)**: LIS, LCS, DP on Trees/Graphs, DP with Bitmasking.  
-3. **Advanced Greedy Algorithms**: Job Scheduling, Huffman Coding.  
-4. **Graph Search & Shortest Path**: A*, Bidirectional BFS.  
-5. **String Algorithms**: KMP, Z-Algorithm, Manacher’s Algorithm for Palindromes.  
-6. **Advanced Recursion and Backtracking**: Hamiltonian Path, Subset Sum, Permutations.  
-7. **Matrix Exponentiation**.  
-8. **Graph Cycle Detection**: Union-Find, Tarjan’s Algorithm.  
-9. **Tarjan’s Algorithm**: Strongly Connected Components.  
-10. **Kadane’s Algorithm**: For Maximum Subarray Problem.  
-11. **Sliding Window Algorithms**: For optimization problems.  
-12. **Trie-Based Algorithms**: For prefix searching, autocomplete.  
-13. **Shortest Path in Weighted Graphs**: Dijkstra, A*.  
-14. **Heavy-Light Decomposition**: For Tree Queries.  
-
----
-
-## 4. Additional Topics to Explore:
-
-These topics are not explicitly mentioned above but are worth exploring for a deeper understanding of algorithms:
-
-1. **Disjoint Set Union (Union-Find)**: Path compression, Union by rank.  
-2. **Topological Sorting**: Using Kahn’s Algorithm.  
-3. **Computational Geometry**: Line intersection, Closest pair of points.  
-4. **Advanced Number Theory**: Modular arithmetic, Modular exponentiation, Chinese Remainder Theorem.  
-5. **Game Theory**: Minimax Algorithm, Alpha-Beta Pruning.  
-6. **Randomized Algorithms**: Reservoir Sampling, Randomized Quick Sort.  
-7. **Approximation Algorithms**: For NP-hard problems.  
-
----
-
-### Folder Structure:
-
-The repository is organized as follows:
-
-```plaintext
-algorithms-java8/
-├── .gitignore
-├── README.md
-├── pom.xml OR build.gradle
-├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── com/
-│   │           └── zeeshank1/
-│   │               └── algorithms/
-│   │                   ├── sorting/
-│   │                   │   ├── QuickSort.java
-│   │                   │   ├── MergeSort.java
-│   │                   │   └── ...
-│   │                   ├── searching/
-│   │                   │   ├── BinarySearch.java
-│   │                   │   └── ...
-│   │                   ├── dynamicprogramming/
-│   │                   │   ├── Knapsack.java
-│   │                   │   └── ...
-│   │                   ├── greedy/
-│   │                   ├── divideandconquer/
-│   │                   ├── graph/
-│   │                   ├── tree/
-│   │                   ├── hashing/
-│   │                   ├── bitmanipulation/
-│   │                   ├── recursion/
-│   │                   ├── stringmatching/
-│   │                   ├── matrix/
-│   │                   ├── segmenttree/
-│   │                   ├── fenwicktree/
-│   │                   ├── networkflow/
-│   │                   ├── numbertheory/
-│   │                   ├── bitmasking/
-│   │                   ├── twopointer/
-│   │                   ├── monotonic/
-│   │                   ├── convexhull/
-│   │                   ├── trie/
-│   │                   ├── heavylightdecomposition/
-│   │                   └── utils/
-│   │                       └── Helper.java
-│   └── test/
-│       └── java/
-│           └── com/
-│               └── zeeshank1/
-│                   └── algorithms/
-│                       └── (Mirrors the main structure for unit tests)
-├── docs/
-│   ├── diagrams/
-│   ├── notes/
-│   │   ├── sorting.md
-│   │   ├── dp.md
-│   │   └── ...
-│   └── cheatsheets/
-├── .github/
-│   └── workflows/
-│       └── maven.yml (CI/CD GitHub Actions for build/test)
+## 📂 Repository Structure
+```bash
+algorithms-java/
+├── sorting/
+│   ├── quicksort.java
+│   ├── mergesort.java
+│   └── heapsort.java
+├── searching/
+│   ├── binarysearch.java
+│   ├── linearsearch.java
+│   └── ternarysearch.java
+├── dynamic-programming/
+│   ├── knapsack.java
+│   ├── lcs.java
+│   └── fibonacci.java
+├── graph/
+│   ├── dijkstra.java
+│   ├── bellmanford.java
+│   └── floydwarshall.java
+├── greedy/
+│   ├── activityselection.java
+│   └── huffmancoding.java
+└── README.md
 ```
 
----
+Each algorithm implementation includes:
 
-## Contributing:
+Clear explanation of the problem
 
-Contributions are welcome! Feel free to submit pull requests for new algorithms, optimizations, or bug fixes.
+Time & space complexity analysis
 
+Code comments & examples
+
+📑 Topics Covered
+1. Must-Know Algorithms
+
+Sorting: Quick Sort, Merge Sort, Heap Sort, Counting Sort
+
+Searching: Linear Search, Binary Search
+
+Greedy: Activity Selection, Huffman Coding
+
+Divide & Conquer: Merge Sort, Quick Sort, Binary Search
+
+Recursion & Backtracking: N-Queens, Sudoku Solver
+
+String Matching: KMP, Rabin-Karp, Z-Algorithm
+
+Matrix Manipulation: Rotate, Transpose, Spiral Traversal
+
+2. Good to Know (Top Companies)
+
+Dynamic Programming: Knapsack, Longest Common Subsequence, Matrix Chain Multiplication
+
+Graph Algorithms: BFS, DFS, Topological Sort
+
+Shortest Paths: Dijkstra, Bellman-Ford, Floyd-Warshall
+
+Minimum Spanning Trees: Kruskal, Prim
+
+Network Flow: Ford-Fulkerson, Edmonds-Karp
+
+Number Theory: GCD, LCM, Sieve of Eratosthenes, Modular Exponentiation
+
+Bitmasking Techniques: Subset Sum, DP + Bitmask
+
+3. Advanced (Tier-1 Companies)
+
+Graph Search & Optimization: A*, Bidirectional BFS, Johnson’s Algorithm
+
+Dynamic Programming Advanced: LIS, LCS (optimized), DP on Trees/Graphs, DP with Bitmasking
+
+String Algorithms: Manacher’s (Palindrome), Suffix Array, Suffix Automaton
+
+Graph Cycle Detection: Union-Find, Tarjan’s Algorithm (SCCs)
+
+Advanced Recursion/Backtracking: Hamiltonian Path, Permutations
+
+Geometry & Math: Convex Hull (Graham Scan, Jarvis March), Matrix Exponentiation, Chinese Remainder Theorem
+
+Specialized Techniques: Sliding Window, Two Pointers, Monotonic Stack/Queue, Trie-based algorithms
+
+🛠 How to Use
+
+Clone the repo:
+
+git clone https://github.com/<your-username>/algorithms-java.git
+
+
+Navigate to the topic (e.g., sorting/, graph/).
+
+Run the algorithm files directly or integrate them into your projects.
+
+Each implementation is written to be:
+
+Readable (clean code, proper naming, comments)
+
+Educational (includes explanation + complexity analysis)
+
+Practical (ready to adapt in interviews or projects)
+
+🎯 Why This Repo?
+
+Covers must-have, good-to-know, and advanced algorithms for coding interviews.
+
+Focused on Java 8+ best practices.
+
+Serves as a handbook for quick revision before interviews.
+
+📌 Future Enhancements
+
+Add unit tests (JUnit) for each algorithm.
+
+Add visual diagrams for key algorithms (like sorting and graph traversal).
+
+Expand to multilang (Python, JS, TS) if needed.
+
+🤝 Contributing
+
+Contributions are welcome! Please keep implementations clean, well-documented, and aligned with the repo structure.
+
+📜 License
+
+This project is licensed under the MIT License – free to use and modif
