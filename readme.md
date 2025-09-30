@@ -1,6 +1,6 @@
 # ⚡ Algorithms in Java
 
-This repository contains **implementations of core and advanced algorithms** using **Java 8+ features** (lambdas, streams, optionals where relevant).
+This repository contains **implementations of core and advanced algorithms** using **Java version 8+ features** (lambdas, streams, optionals where relevant).
 
 It is designed to serve as a **reference and practice resource** for engineers preparing for **technical interviews**, competitive programming, and system design discussions.
 
